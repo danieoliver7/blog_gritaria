@@ -1,3 +1,12 @@
 <?php
+$prod = false;
+/**
+ * prod.php => produção
+ * local.php => QA|LOCALHOST
+ * 
+ */
 
-define('BASE', '/blog_gritaria/');
+
+$file = $prod ? 'prod.php' : 'local.php';
+
+require_once('env/'. $file);

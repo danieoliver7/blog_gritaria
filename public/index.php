@@ -2,7 +2,6 @@
 
 require_once ('../vendor/autoload.php');
 
+use app\site\controller\UsuarioController;
 
-
-
-echo BASE;
+print_r(BASE);
