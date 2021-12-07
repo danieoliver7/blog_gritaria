@@ -1,10 +1,26 @@
 <?php
 
-namespace app\site\controller;
+namespace App\Site\Controller;
+use App\Core\Controller;
 
-class UsuarioController{
+class UsuarioController extends Controller{
 
     public function __construct(){
-        echo \app\classes\Input::get('teste');
+     
     }
+
+
+    public function index(){
+        echo 'Mtodo index';
+    }
+
+    public function teste(){
+        echo 'teste';
+    }
+
+    public function message(string $msg){
+        echo $msg;
+    }
+
+   
 }
