@@ -1,0 +1,23 @@
+:root{
+    /*CORES*/
+    --cor--azul:rgb(97, 63, 248);
+    --cor--vermelha:rgb(218, 55, 55);
+    --cor--cinza-claro:rgb(116, 100, 100);
+    --cor--cinza-escuro:rgb(63, 57, 57);
+    --cor--preto:rgb(7, 7, 7);
+    --cor--branco:#fff;
+    /*TAMANHOS*/
+    --max--width:1200px;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.max-width{
+    max-width: var(--max--width);
+    width: 100%;
+}

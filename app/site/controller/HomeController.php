@@ -4,8 +4,12 @@ namespace App\Site\controller;
 
 use App\Core\Controller;
 
-class Home{
+/**
+ * CARREGA A PAGINA INICIAL DO SITE
+ */
+
+class HomeController extends Controller{
     public function index(){
-        http_response_code(404);
+        return $this->view('home.index');
     }
 }
